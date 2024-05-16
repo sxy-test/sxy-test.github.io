@@ -1,0 +1,14 @@
+.current {
+    color: green;
+  }
+
+/* 调整导航胶囊之间的距离 */
+.nav-pills .nav-link {
+  margin-right: 50px; /* 调整导航胶囊之间的距离 */
+}
+
+/* 设置所有表格单元格居中对齐 */
+table th, table td {
+  text-align: center; /* 水平居中 */
+  vertical-align: middle; /* 垂直居中 */
+}

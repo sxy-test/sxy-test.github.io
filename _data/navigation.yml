@@ -1,0 +1,11 @@
+# 主要数据页索引
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Blog
+  link: /blog.html
+- name: Staff
+  link: /staff.html
+- name: Resume
+  link: /resume.html

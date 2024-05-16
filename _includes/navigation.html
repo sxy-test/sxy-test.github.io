@@ -1,0 +1,20 @@
+<div style="display: flex; justify-content: center; background-color:#ccc; padding: 5px 0px;">
+  <ul class=" nav nav-pills">
+    <li class = "nav-link"><img src="/assets/css/images/identity.jpg" class="img-circle img-fluid" width="40px" height="40px"></li>
+    {% for item in site.data.navigation %}
+      <li class = "nav-link {% if page.url == item.link %} active {% endif %}"><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+    {% endfor %}
+    <li class="nav-link dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        Java <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Swing</a></li>
+        <li><a href="#">jMeter</a></li>
+        <li><a href="#">EJB</a></li>
+        <li class="divider"></li>
+        <li><a href="#">分离的链接</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
