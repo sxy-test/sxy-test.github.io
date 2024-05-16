@@ -1,11 +1,11 @@
 # 主要数据页索引
-- name: HomePage
+- name: Cup1
   link: /
-- name: Products
+- name: Cup2
   link: /about.html
-- name: Story
+- name: Cup3
   link: /blog.html
-- name: Commitment
+- name: Cup4
   link: /staff.html
-- name: Join us
+- name: Cup5
   link: /resume.html

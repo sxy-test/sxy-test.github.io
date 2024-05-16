@@ -16,3 +16,20 @@ title: Blog
   </div>
   {% endfor %}
 </ul>
+
+<div class="container">
+  <div class="panel panel-primary row" >
+      <ul style="padding: 0 100px;">
+          {% for item in site.data.products %}
+          <div class="panel panel-primary" style="width: 300px;height: 200px;margin: 10px;">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="{{ item.link }}">{{item.name}}</a></h3>
+            </div>
+            <div class="panel-body">
+              {{ item.name }}
+            </div>
+          </div>
+          {% endfor %}
+      </ul>
+  </div>
+</div>
