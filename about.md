@@ -12,7 +12,7 @@ title: About
     <!-- 产品1 -->
     <div class="row mb-5">
         <div class="col-md-6">
-            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="玻璃杯1">
+            <img src="assets/css/images/test.png" class="img-fluid" alt="玻璃杯1">
         </div>
         <div class="col-md-6">
             <h2>经典透明玻璃杯</h2>
@@ -25,7 +25,7 @@ title: About
     <!-- 产品2 -->
     <div class="row mb-5">
         <div class="col-md-6 order-md-2">
-            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="玻璃杯2">
+            <img src="assets/css/images/test.png" class="img-fluid" alt="玻璃杯2">
         </div>
         <div class="col-md-6 order-md-1">
             <h2>双层隔热玻璃杯</h2>
@@ -38,7 +38,7 @@ title: About
     <!-- 产品3 -->
     <div class="row mb-5">
         <div class="col-md-6">
-            <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="玻璃杯3">
+            <img src="assets/css/images/test.png" class="img-fluid" alt="玻璃杯3">
         </div>
         <div class="col-md-6">
             <h2>艺术手工玻璃杯</h2>
