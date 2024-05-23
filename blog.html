@@ -2,34 +2,37 @@
 layout: default
 title: Blog
 ---
-<h1 class="text-primary text-center">Latest Posts</h1>
-
-<ul style="padding: 0 350px;">
-  {% for post in site.posts %}
-  <div class="panel panel-primary" >
-    <div class="panel-heading">
-        <h3 class="panel-title"><a href="{{ post.url }}">{{ post.title}} {{ post.date | date_to_string }}</a></h3>
-    </div>
-    <div class="panel-body">
-      {{ post.excerpt }}
-    </div>
+<!-- 企业文化介绍 -->
+<div class="container mt-5 text-center">
+  <div class="row">
+      <div class="col-12">
+        <h1 class="text-primary text-center">企业介绍</h1>
+        <p class="lead">在这里，我们致力于创造一个积极、包容和创新的工作环境。</p>
+      </div>
   </div>
-  {% endfor %}
-</ul>
 
-<div class="container">
-  <div class="panel panel-primary row" >
-      <ul style="padding: 0 100px;">
-          {% for item in site.data.products %}
-          <div class="panel panel-primary" style="width: 300px;height: 200px;margin: 10px;">
-            <div class="panel-heading">
-                <h3 class="panel-title"><a href="{{ item.link }}">{{item.name}}</a></h3>
-            </div>
-            <div class="panel-body">
-              {{ item.name }}
-            </div>
-          </div>
-          {% endfor %}
-      </ul>
+  <!-- 企业介绍模块 -->
+  <div class="row mt-4">
+      <div class="col-md-6">
+          <h2>企业介绍</h2>
+          <p>我们的公司成立于2000年，致力于为客户提供卓越的服务和解决方案。我们相信，只有通过持续的创新和卓越的客户服务，才能在竞争激烈的市场中脱颖而出。</p>
+          <p>我们拥有一支充满激情和创造力的团队，他们是公司成功的基石。我们的企业文化强调协作、创新和对卓越的追求。</p>
+      </div>
+      <div class="col-md-6">
+          <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="公司图片">
+      </div>
+  </div>
+
+  <!-- 企业员工故事模块 -->
+  <div class="row mt-4">
+      <div class="col-md-6">
+          <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="员工故事图片">
+      </div>
+      <div class="col-md-6">
+          <h2>企业员工故事</h2>
+          <p>我们的员工是我们最宝贵的资产。每一位员工都有自己独特的故事和贡献。在这里，我们分享一些员工的故事，以展示他们的激情、创造力和对公司的贡献。</p>
+          <p>例如，Jane Doe，从一名实习生成长为我们的项目经理，她的职业发展历程激励了许多同事。她在项目管理方面的卓越表现和团队领导能力，赢得了大家的尊重和信任。</p>
+          <p>另一个故事是John Smith，他在公司技术部门工作了5年，凭借他的技术专长和创新思维，帮助公司解决了许多复杂的技术难题。他的故事展示了我们公司鼓励创新和职业发展的文化。</p>
+      </div>
   </div>
 </div>
