@@ -1,0 +1,41 @@
+
+
+.product-nav{
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    padding:20px 0;
+    word-break: break-all;
+    text-decoration:none;color: inherit;
+  }
+  .product-nav:hover{
+    text-decoration: none;
+  }
+  
+  .product-nav.active{
+    border-radius: 10px;
+    background-color: white;
+  }
+  .glass-h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+
+  .glass-title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .glass-a:hover{
+    text-decoration: none;
+  }
+  .gallery{
+    width:20vw;height:100%;background-color:rgba($color: #ccc, $alpha: 0.2);overflow-y:scroll;
+  }
+  .gallery img{
+    width: 100%;
+  }
