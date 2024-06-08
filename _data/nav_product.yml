@@ -1,0 +1,11 @@
+# 主要数据页索引
+- name: 古典杯
+  link: /product/old-fashioned.html
+- name: 香槟杯
+  link: /product/champagne-glass.html
+- name: 红葡萄酒杯
+  link: /product/red-wine-glass.html
+- name: 海波杯
+  link: /product/highball-glass.html
+- name: 鸡尾酒杯
+  link: /product/cocktail-glass.html

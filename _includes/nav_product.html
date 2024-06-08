@@ -1,0 +1,20 @@
+<div style="width: 10vw;min-width: 200px;">
+  
+<div
+  style="display: flex; justify-content: center; background-color:#ccc; height: 100vh;
+  flex-direction: column;justify-content: start;align-items: center;position: fixed;left: 0;top: 0;bottom: 0;width: 10vw;min-width: 200px;padding-top: 5vh;">
+
+<a href="/" class="glass-a">
+
+  <div style="text-align: center;color: white;border-radius: 10px;border: 2px solid white;margin-top: 10px;padding: 20px 20px;font-size: 20px;">
+
+  <img src="/assets/css/images/logo.jpg" class="img-circle img-fluid" width="80px" height="80px"/><br>
+    Perfect Glass<br>Company
+  </div></a>
+  
+  <div style="color: white;font-size: 30px;margin: 20px 0px ;font-weight: 500;">Products</div>
+  {% for item in site.data.nav_product %}
+    <a href="{{ item.link }}" class="text-center product-nav {% if page.url == item.link %} active {% endif %}" >{{ item.name }}</a>
+  {% endfor %}
+
+</div></div>
